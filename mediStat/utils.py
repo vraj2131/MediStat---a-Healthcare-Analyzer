@@ -4,17 +4,13 @@ from mediStat.constants import RESULTS_DIR, STATS_FILE_TEMPLATE, PLOT_FILE_TEMPL
 
 def ensure_results_dir() -> None:
     """
-    Ensure that the results directory exists.
+        Will check if results directory is present
     """
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 def save_to_txt(name: str, text: str) -> Path:
     """
-    Save a string of text to a stats file in the results directory.
-
-    :param name: Logical name used to format the filename (e.g., "billing" → "billing_stats.txt")
-    :param text: The content to write into the file.
-    :return: Path to the written file.
+        Will save the given text to a file in the results directory
     """
     ensure_results_dir()
     filename = STATS_FILE_TEMPLATE.format(name=name)
@@ -25,11 +21,7 @@ def save_to_txt(name: str, text: str) -> Path:
 
 def save_plot(fig: plt.Figure, name: str) -> Path:
     """
-    Save a matplotlib figure to a PNG in the results directory.
-
-    :param fig: A matplotlib Figure object.
-    :param name: Logical name used to format the filename (e.g., "billing" → "billing_plot.png")
-    :return: Path to the saved image.
+        Will save the given plot to a file in the results directory
     """
     ensure_results_dir()
     filename = PLOT_FILE_TEMPLATE.format(name=name)

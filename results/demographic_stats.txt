@@ -1,0 +1,11 @@
+Total Patients Analyzed : 55500
+Overall Mean Age         : 51.54
+Overall Median Age       : 52.00
+
+Gender Distribution:
+  Male: 27774
+  Female: 27726
+
+Age Stats by Gender:
+  Female -> count: 27726, mean: 51.58, median: 52.00
+  Male -> count: 27774, mean: 51.50, median: 52.00

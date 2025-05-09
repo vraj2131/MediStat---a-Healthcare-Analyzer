@@ -1,0 +1,56 @@
+Medication Prescription Counts:
+  Lipitor: 11140
+  Ibuprofen: 11127
+  Aspirin: 11094
+  Paracetamol: 11071
+  Penicillin: 11068
+
+Billing Stats by Medication:
+  Aspirin: mean=$25594.26, median=$25476.59
+  Ibuprofen: mean=$25735.58, median=$25787.03
+  Lipitor: mean=$25342.47, median=$25353.26
+  Paracetamol: mean=$25533.47, median=$25798.82
+  Penicillin: mean=$25490.92, median=$25252.78
+
+Medication Counts by Medical Condition:
+Arthritis:
+  Aspirin: 1918
+  Paracetamol: 1877
+  Penicillin: 1866
+  Lipitor: 1825
+  Ibuprofen: 1822
+
+Asthma:
+  Paracetamol: 1888
+  Penicillin: 1845
+  Ibuprofen: 1827
+  Lipitor: 1823
+  Aspirin: 1802
+
+Cancer:
+  Lipitor: 1922
+  Ibuprofen: 1873
+  Paracetamol: 1853
+  Penicillin: 1793
+  Aspirin: 1786
+
+Diabetes:
+  Lipitor: 1893
+  Penicillin: 1881
+  Ibuprofen: 1861
+  Aspirin: 1858
+  Paracetamol: 1811
+
+Hypertension:
+  Ibuprofen: 1893
+  Aspirin: 1865
+  Paracetamol: 1849
+  Lipitor: 1848
+  Penicillin: 1790
+
+Obesity:
+  Penicillin: 1893
+  Aspirin: 1865
+  Ibuprofen: 1851
+  Lipitor: 1829
+  Paracetamol: 1793

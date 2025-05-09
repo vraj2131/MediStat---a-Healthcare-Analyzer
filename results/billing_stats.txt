@@ -1,0 +1,13 @@
+Total records         : 55500
+Total billing amount  : $1417432043.40
+Mean billing amount   : $25539.32
+Median billing amount : $25538.07
+Cases above $5000.00: 50939
+
+Billing by Condition:
+  Arthritis -> count: 9308, mean: $25497.33, median: $25581.76
+  Asthma -> count: 9185, mean: $25635.25, median: $25661.87
+  Cancer -> count: 9227, mean: $25161.79, median: $24910.98
+  Diabetes -> count: 9304, mean: $25638.41, median: $25621.08
+  Hypertension -> count: 9245, mean: $25497.10, median: $25275.67
+  Obesity -> count: 9231, mean: $25805.97, median: $26130.00
