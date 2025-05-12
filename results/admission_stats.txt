@@ -1,8 +1,0 @@
-Admission Type Counts:
-  Elective: 18655
-  Urgent: 18576
-  Emergency: 18269
-
-Length of Stay (days):
-  Mean  : 15.51
-  Median: 15.00
